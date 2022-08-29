@@ -1,14 +1,13 @@
-let nome = undefined;
-let idade = undefined;
+let nome = "";
+let idade = "";
 
-//Porque eu não defini o valor da variável.
+console.log(typeof nome, typeof idade);
 
-nome = "Diego";
-idade = 27;
+//Está como string por conta de ter usado as "" para declarar o valor.
 
 nome = prompt("Qual o seu nome?");
 idade = prompt("Qual a sua idade?");
 
-// Notei que se mantiveram como string.
+// Notei que continuaram como string.
 
-console.log("Olá", nome, "você tem", idade, "anos");
+console.log(`Olá, ${nome}, você tem, ${idade}, anos`);
