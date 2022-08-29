@@ -1,5 +1,7 @@
-let a = 10
-let b = 25
+let a = 10;
+let b = 25;
+let c = [];
 
-a = b
-b = a
+c = a;
+a = b;
+b = c;
